@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Restaurant-website</title>
+  </head>
+  <style>
+    @font-face {
+      font-family: "popins";
+      src: url("./fonts/OFL.txt");
+    }
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    ul li {
+      font-family: sans-serif;
+    }
+  </style>
+  <body>
+    <div class="main-container">
+      <!-- Hero-section+navbar -->
+      <div class="hero-section h-[1169px]">
+        <!-- navbar -->
+        <nav class="flex justify-around h-[100px] items-center pt-7">
+            <div class="logo relative flex items-center">
+              <img src="./images/Rectangle 39.png" alt="" />
+              <img src="./images/F (1).png" class="absolute left-1.5" alt="" />
+              <img src="./images/oodi.png" class="ml-1" alt="" />
+            </div>
+            <ul class="flex justify-between w-[400px] text-[20px] font-medium">
+              <li><a href="#" class="text-[#39DB4A]">Home</a></li>
+              <li>
+                <a href="#">Menu</a
+                ><span
+                  ><i class="fa-solid fa-angle-down text-[#39DB4A] ml-2"></i
+                ></span>
+              </li>
+              <li>
+                <a href="#">Services</a
+                ><span
+                  ><i class="fa-solid fa-angle-down text-[#39DB4A] ml-2"></i
+                ></span>
+              </li>
+              <li><a href="#">Offers</a></li>
+            </ul>
+            <div class="icon-div flex justify-between items-center w-[310px]">
+              <div class="search w-[32px] h-[32px]"class="w-[32px] h-[32px]">
+                <a href=""><img src="./images/Vector.png" class="w-[32px] h-[32px]" alt=""></a>
+              </div>
+              <div class="bag">
+                <a href=""><img src="./images/fi-rr-shopping-bag.png" class=" relativeobject-contain w-[24px] h-[24px]" alt=""></a>
+                <div class="flex justify-center items-center text-white bg-[#39DB4A] w-[20px] h-[20px] absolute top-[45px] right-[332px] rounded-full ">8</div>
+              </div>
+              <button class="flex gap-1 border w-[180px] h-[60px] bg-[#39DB4A] justify-center items-center text-white rounded-full">
+                <div class="icon"><img src="./images/fi-rr-phone-call.png" alt=""></div>
+                Contact
+              </button>
+            </div>
+          </nav>
+          <!-- hero-section -->
+           <div class="hero flex w-full h-screen">
+            <!-- title-div -->
+            <div class="title-section flex justify-center flex-col items-center w-[50%]">
+                <div class="food">
+                    <div class="title w-[596px] h-[180px] text-[62px] font-extrabold ">
+                        <h5 class="">Dive into Delights Of Delectable <span class="text-[#39DB4A]">Food</span></h1>
+                        </div>
+                        <div class="para w-[622px] h-[88px] text-[26px]  mt-7 text-[#4A4A4A] font-medium"><p>
+                            Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship
+                        </p></div>
+                </div>
+                <div class="button-group flex w-[622px] h-[100px] items-center ">
+                    <div class="flex gap-4">
+                        <button class="order text-[26px] font-semibold text-white w-[230px] h-[80px] rounded-full bg-[#39DB4A]">Order Now</button>
+                    <button class="watch-video flex justify-center items-center text-[26px] font-semibold text-[#4D4D4D] ml-10">
+                        watch video
+                        <div class="icon-video w-[80px] h-[80px] rounded-full  shadow-2xl flex justify-center items-center ml-4"><div><img src="./images/Polygon 1.png" alt=""></div></div>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <!-- end of titlesection -->
+            <!-- image-div -->
+            <div class="girl-image flex justify-center flex-col items-center w-[50%]">
+                <div class="inner-div-of-image">
+                    <img src="./images/Rectangle 9.png" class="relative w-[590px]  h-[600px] top-[67px]" alt="">
+                    <img src="./images/Intersect.png" class="absolute  left-[831px] h-[723px] top-[128px]"  alt="">
+                </div>
+            </div>
+           </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
