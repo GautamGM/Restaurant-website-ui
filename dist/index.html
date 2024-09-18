@@ -18,8 +18,12 @@
   </head>
   <style>
     @font-face {
-      font-family: "popins";
-      src: url("./fonts/OFL.txt");
+      font-family: "poppins";
+      src: url("./fonts/Poppins/Poppins-Regular.ttf");
+    }
+    @font-face {
+      font-family: "inter";
+      src: url("./fonts/Inter/static/Inter_18pt-Regular.ttf");
     }
     * {
       margin: 0px;
@@ -28,6 +32,9 @@
     }
     ul li {
       font-family: sans-serif;
+    }
+    body{
+      font-family:"inter","poppins";
     }
     @media (min-width:320px) {
       .cheif-girl{
@@ -117,15 +124,15 @@
                 <li><a href="#">Offers</a></li>
               </ul>
             </div>
-            <div class="icon-div  flex md:justify-evenly sm:justify-evenly lg:justify-between items-center w-[100px]  sm:w-[190px] md:w-[250px] lg:w-[280px]">
+            <div class="icon-div  flex md:justify-evenly sm:justify-evenly lg:justify-between items-center w-[100px]  sm:w-[190px] md:w-[250px] lg:w-[330px]">
               <div class="w-[32px]  h-[32px] flex items-center justify-center">
-                <a href=""><img src="./images/🦆 icon _search_.png" class=" w-[22px] h-[22px] sm:w-[32px] sm-[h-32px]" alt=""></a>
+                <a href=""><img src="./images/🦆 icon _search_.png"  alt=""></a>
               </div>
               <div class="bag relative hidden sm:block">
                 <a href=""><img src="./images/fi-rr-shopping-bag.png" class="  object-contain w-[24px] h-[24px]" alt=""></a>
                 <div class="flex justify-center items-center text-white bg-[#39DB4A] w-[20px] h-[20px] absolute top-[-5px] right-[-10px] rounded-full ">8</div>
               </div>
-              <button class="flex  gap-1 p-0 m-0 text-[12px] sm:text-[16px] md:text-[16px] text-center  w-[60px] h-[30px] sm:w-[90px] sm:h-[40px] md:w-[90px] md:h-[40px] lg:w-[180px] lg:h-[60px] lg:text-[22px] bg-[#39DB4A] justify-center items-center text-white rounded-full">
+              <button class="flex  gap-1 p-0 m-0 text-[9px] sm:text-[16px] md:text-[16px] text-center  w-[60px] h-[30px] sm:w-[90px] sm:h-[40px] md:w-[90px] md:h-[40px] lg:w-[180px] lg:h-[60px] lg:text-[22px] bg-[#39DB4A] justify-center items-center text-white rounded-full">
                 <div class="icon"><img src="./images/fi-rr-phone-call.png" class="hidden sm:block sm:w-[18px] lg:w-[25px]" alt=""></div>
                 <p>Contact</p>
               </button>
@@ -136,21 +143,21 @@
             
           </nav>
           <!-- hero-section -->
-           <div class="hero  flex flex-col-reverse  md:flex-col-reverse lg:flex-row    justify-center items-center text-center  sm:text-start sm:w-full mb-[30px] sm:min-h-[796px]">
+           <div class="hero  flex flex-col-reverse  md:flex-col-reverse lg:flex-row    justify-center items-center text-center  sm:text-start sm:w-full mb-[30px] sm:h-[556px]">
             <!-- title-div -->
-            <div class="title-section flex mt-[-30px] lg:text-[50px] lg:pl-[110px] xl:pl-[0]     sm:pt-[250px] lg:pt-[0] lg:mt-[0px] justify-center flex-col items-center w-[100%] h-[300px] sm:w-[50%]">
-                <div class="food flex justify-center flex-col items-center sm:block ">
-                    <div class="title  text-[28px] lg:text-[50px] xl:text-[62px]   sm:block flex justify-center items-center sm:w-[596px] sm:h-[180px] w-[300px]  sm:text-[62px] font-extrabold ">
-                        <h5 class="">Dive into Delights Of Delectable <span class="text-[#39DB4A]">Food</span></h1>
+            <div class="title-section flex mt-[-20px] lg:text-[50px] lg:pl-[110px] xl:pl-[0]  sm:pt-[250px] lg:pt-[0] lg:mt-[0px] jus flex-col  w-[100%] h-[250px] sm:w-[50%]">
+                <div class="food  flex flex-col justify-center  items-center sm:block lg:flex ">
+                    <div class="title  text-[28px] leading-9 sm:leading-[90.22px] lg:text-[50px] xl:text-[62px]   sm:block flex justify-center items-center sm:w-[596px] sm:h-[180px] w-[350px]  sm:text-[62px] font-extrabold ">
+                        <h1 class="">Dive into Delights Of Delectable <span class="text-[#39DB4A]">Food</span></h1>
                         </div>
-                        <div class="para sm:w-[622px] h-[88px] text-[26px]  mt-7 text-[#4A4A4A] font-medium"><p>
+                        <div class="para text-[16px] mt-5 sm:w-[602px] sm:text-[26px] md-[26px] sm:h-[88px] w-[350px] sm:mt-5 lg:mt-5  text-[#4A4A4A] font-medium lg:leading-[44px]"><p>
                             Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship
                         </p></div>
                 </div>
-                <div class="button-group flex justify-center  sm:justify-evenly mt-16  sm:mt-[0px] w-[622px] min-h-[100px] items-center ">
-                    <div class="flex gap-[10px] sm:gap-4 justify-around  sm:flex-row sm:justify-center items-center">
-                        <button class="order text-[18px] sm:text-[26px] font-semibold text-white w-[130px] h-[60px] sm:w-[230px] sm:h-[80px] rounded-full bg-[#39DB4A]">Order Now</button>
-                    <button class="watch-video  w-[130px] h-[50px] sm:w-[300px] sm:h-[80px] flex justify-center items-center sm:text-[26px] font-semibold text-[#4D4D4D] sm:ml-10">
+                <div class="button-group flex justify-center   sm:justify-evenly mt-9  sm:h-[100px]  sm:mt-10 sm:w-[770px]  h-[50px] items-center ">
+                    <div class="flex gap-[10px] sm:gap-4  justify-around w-[330px] sm:w-[622px]  sm:flex-row sm:justify-center items-center">
+                        <button class="order text-[15px] sm:text-[26px] font-semibold text-white w-[150px] h-[40px] sm:w-[230px] sm:h-[80px] rounded-full bg-[#39DB4A]">Order Now</button>
+                    <button class="watch-video  w-[160px] h-[40px] sm:w-[300px] sm:h-[80px] flex justify-center items-center sm:text-[26px] font-semibold text-[#4D4D4D] sm:ml-10">
                         watch video
                         <div class=" bg-white w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] rounded-full  shadow-2xl flex justify-center items-center ml-4"><div><img src="./images/Polygon 1.png" class="w-[15px] sm:w-full"  alt=""></div></div>
                     </button>
@@ -159,16 +166,16 @@
             </div>
             <!-- end of titlesection -->
             <!-- image-div -->
-            <div class="girl-image  flex h-[300px]  mb-[60px]  md:mb-[90px]   p-[20px]  pt-[70px] pb-[100px] sm:p-[0]  justify-center flex-col items-center w-[100%]  lg:w-[50%]">
+            <div class="girl-image  flex h-[250px]  mb-[50px]  md:mb-[90px]   p-[20px]  pt-[70px] pb-[100px] sm:p-[0]  justify-center flex-col items-center w-[100%]  lg:w-[50%]">
                 <div class="inner-div-of-image relative   ">
                     <img src="./images/Rectangle 9.png" class=" w-[225px] h-[240px] pt-[50px] pl-[9px] pr-[10px] sm:p-0 sm:w-[250px] sm:h-[250px]sm:mt-[5px]   sm:object-fill md:w-[320px] md:h-[320px] lg:w-[490px] lg:h-[530px]  sm:z-[-99] " alt="">
                     <img src="./images/Intersect.png" class="absolute   top-[-6px] sm:h-[320px] md:w-[500px] md:h-[400px] sm:top-[-70px] md:top-[-72px] p-[1px] left-[-8.5px] lg:h-[700px] lg:w-[570px] lg:top-[-150px]  sm:z-[0]   sm:left-[-10px]"  alt="">
                     <img src="./images/Group 15.png" class="absolute top-[-1px] p-[45px]  sm:p-0 left-[-95px]   sm:top-2 sm:left-[-190px] "  alt="">
                     <!-- card-group -->
-                    <div class="card-group  sm:w-[700px] gap-3  w-[300px] left-[-40px] top-[210px] flex justify-evenly sm:gap-3 absolute z-[999] sm:top-[220px] sm:left-[-220px]  md:top-[290px] md:left-[-190px] p-[15px] lg:top-[500px] lg:left-[-110px] lg:gap-[12px]">
-                      <div class="card-1 p-[03px] w-[150px] h-[50px] sm:w-[300px] sm:h-[90px]  md:w-[349px] md:h-[132px] md:p-5 rounded-[10px] sm:rounded-[25px] bg-white shadow-2xl ">
-                       <div class="div flex  h-[100%] items-center   ">
-                        <div class="imgage"><img src="./images/image 14.png" class="h-[45px] sm:h-[auto]  rounded-[10px] sm:rounded-[25px]" alt=""></div>
+                    <div class="card-group  sm:w-[750px] gap-3  w-[303px] left-[-55px] top-[210px] flex items-center justify-between sm:gap-3 absolute z-[999] sm:top-[220px] sm:left-[-220px]  md:top-[290px] md:left-[-190px] p-[1px] lg:top-[500px] lg:left-[-160px] lg:gap-[12px]">
+                      <div class="card-1 p-[03px] w-[140px] h-[40px] sm:w-[300px] sm:h-[90px]  md:w-[349px] md:h-[132px] md:p-5 rounded-[10px] sm:rounded-[25px] bg-white shadow-2xl ">
+                       <div class="div  flex justify-center sm:justify-between items-center  h-[100%]    ">
+                        <div class="imgage flex items-center justify-center  h-[35px]  sm:h-[auto]  rounded-[10px] sm:rounded-[25px]"><img src="./images/image 14.png" class=" w-[100%] h-[100%] object-cover  rounded-[10px]" alt=""></div>
                         <div class="div font-semibold flex flex-col justify-center items-start ml-[10px] text-[8px]  sm:text-[22px] text-[#2C2C2C] ">
                           <h6>Spicy noodles</h6>
                           <img src="./images/Group 6.png" alt="">
@@ -179,9 +186,9 @@
                        </div>
                       </div>
                       <!-- card-2 -->
-                      <div class="card-2  p-[03px] w-[150px] h-[50px]  sm:w-[300px] sm:h-[70px]  md:w-[349px] md:h-[132px] rounded-[10px] sm:rounded-[25px] bg-white shadow-2xl">
-                        <div class="div flex  h-[100%] items-center   ">
-                         <div class="imgage"><img src="./images/image 14.png" class="h-[45px] sm:h-[auto]  rounded-[10px] sm:rounded-[25px]" alt=""></div>
+                      <div class="card-2 p-[03px] w-[140px] h-[40px] sm:w-[300px] sm:h-[90px]  md:w-[349px] md:h-[132px] md:p-5 rounded-[10px] sm:rounded-[25px] bg-white shadow-2xl ">
+                        <div class="div  flex justify-center sm:justify-between items-center  h-[100%]    ">
+                         <div class="imgage flex items-center justify-center  h-[35px] sm:h-[auto]  rounded-[10px] sm:rounded-[25px]"><img src="./images/vegitarian salad.png" class=" w-[100%] h-[100%] object-cover  rounded-[10px]" alt=""></div>
                          <div class="div font-semibold flex flex-col justify-center items-start ml-[10px] text-[8px]  sm:text-[22px] text-[#2C2C2C] ">
                            <h6>Spicy noodles</h6>
                            <img src="./images/Group 6.png" alt="">
@@ -197,12 +204,12 @@
            </div>
       </div>
       <!-- category-section -->
-      <section class="category-section w-screen flex items-center justify-center flex-col  pb-10   sm:mt-[100px]" >
-       <div class="category-title-section flex flex-col items-center justify-center p-2 ">
+      <section class="category-section  flex items-center justify-center flex-col  pb-10  mt-[-20px]  sm:mt-[100px]" >
+       <div class="category-title-section bg-lack w-[300px] sm:w-580px md:w-full flex flex-col items-center justify-center p-2 ">
         <div class="category-heading flex justify-center">
-          <p class="text-[#FF6868] text-[20px] font-bold sm:tracking-[5px] ">CUSTOMER FAVORITES</p>
+          <p class="text-[#FF6868] text-[25px] font-bold sm:tracking-[5px] ">CUSTOMER FAVORITES</p>
         </div>
-        <div class="category-tittle flex justify-center items-center h-[53px] w-[580px] text-[30px] sm:text-[60px] font-bold ">
+        <div class="category-tittle flex justify-center items-center h-[53px] w-[290px] sm:w-580px md:w-full text-[24px] sm:text-[60px] font-bold ">
           <h2 class="">Popular Catagories</h2>
         </div>
        </div>
@@ -210,132 +217,132 @@
         <div class="category-card-sections  flex  justify-center">
           <div class="cards  mt-[20px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  items-center justify-items-center    gap-5 ">
             <!-- card-1 -->
-            <div class="card bg-white w-[300px] h-[300px] sm:w-[326px] sm:h-[326px]  flex flex-col justify-center items-center rounded-[40px] shadow-2xl">
-              <div class="circle w-[153px] h-[153px] rounded-full bg-[#C1F1C6] flex justify-center items-center">
-                <div class="img w-[139px] h-[102px]">
+            <div class="card bg-white w-[240px] h-[250px] sm:w-[326px] sm:h-[326px]  flex flex-col justify-center items-center rounded-[40px] shadow-2xl">
+              <div class="circle w-[133px] h-[133px] rounded-full bg-[#C1F1C6] flex justify-center items-center">
+                <div class="img w-[100px] sm:w-[139px] sm:h-[102px]">
                   <img src="./images/pngwing 4.png" class="w-full h-auto object-cover" alt="">
                 </div>
               </div>
-              <div class="food-items text-[30px] font-semibold"><h4>Main Dish</h4></div>
-              <div class="dishes text-[22px] font-medium text-[#555555]"><h6>(86 dishes)</h6></div>
+              <div class="food-items text-[20px] sm:text-[30px] sm:font-semibold"><h4>Main Dish</h4></div>
+              <div class="dishes sm:text-[22px] font-medium text-[#555555]"><h6>(86 dishes)</h6></div>
             </div>
             <!-- card-2 -->
-            <div class="card bg-white w-[300px] h-[300px] sm:w-[326px] sm:h-[326px]  flex flex-col justify-center items-center rounded-[40px] shadow-2xl">
-              <div class="circle w-[153px] h-[153px] rounded-full bg-[#C1F1C6] flex justify-center items-center">
-                <div class="img w-[110px] h-[72px]">
-                  <img src="./images/pngwing 6.png" class="w-full h-auto object-cover" alt="">
+            <div class="card bg-white w-[240px] h-[250px] sm:w-[326px] sm:h-[326px]  flex flex-col justify-center items-center rounded-[40px] shadow-2xl">
+              <div class="circle w-[133px] h-[133px] rounded-full bg-[#C1F1C6] flex justify-center items-center">
+                <div class="img w-[100px] sm:w-[139px] sm:h-[102px]">
+                  <img src="./images/pngwing 4.png" class="w-full h-auto object-cover" alt="">
                 </div>
               </div>
-              <div class="food-items text-[30px] font-semibold"><h4>Break Fast</h4></div>
-              <div class="dishes text-[22px] font-medium text-[#555555]"><h6>(12 break fast)</h6></div>
+              <div class="food-items text-[20px] sm:text-[30px] sm:font-semibold"><h4>Main Dish</h4></div>
+              <div class="dishes sm:text-[22px] font-medium text-[#555555]"><h6>(86 dishes)</h6></div>
             </div>
             <!-- card-3 -->
-            <div class="card bg-white w-[300px] h-[300px] sm:w-[326px] sm:h-[326px]  flex flex-col justify-center items-center rounded-[40px] shadow-2xl">
-              <div class="circle w-[153px] h-[153px] rounded-full bg-[#C1F1C6] flex justify-center items-center">
-                <div class="img w-[111px] h-[98px]">
-                  <img src="./images/pngwing 3.png" class="w-full h-auto object-cover" alt="">
+            <div class="card bg-white w-[240px] h-[250px] sm:w-[326px] sm:h-[326px]  flex flex-col justify-center items-center rounded-[40px] shadow-2xl">
+              <div class="circle w-[133px] h-[133px] rounded-full bg-[#C1F1C6] flex justify-center items-center">
+                <div class="img w-[100px] sm:w-[139px] sm:h-[102px]">
+                  <img src="./images/pngwing 4.png" class="w-full h-auto object-cover" alt="">
                 </div>
               </div>
-              <div class="food-items text-[30px] font-semibold"><h4>Dessert</h4></div>
-              <div class="dishes text-[22px] font-medium text-[#555555]"><h6>(48 dessert)</h6></div>
+              <div class="food-items text-[20px] sm:text-[30px] sm:font-semibold"><h4>Main Dish</h4></div>
+              <div class="dishes sm:text-[22px] font-medium text-[#555555]"><h6>(86 dishes)</h6></div>
             </div>
             <!-- card-4 -->
-            <div class="card bg-white w-[300px] h-[300px]  sm:w-[326px] sm:h-[326px]  flex flex-col justify-center items-center rounded-[40px] shadow-2xl">
-              <div class="circle w-[153px] h-[153px] rounded-full bg-[#C1F1C6] flex justify-center items-center">
-                <div class="img w-[77px] h-[92px]">
-                  <img src="./images/pngwing 7.png" class="w-full h-auto object-cover" alt="">
+            <div class="card bg-white w-[240px] h-[250px] sm:w-[326px] sm:h-[326px]  flex flex-col justify-center items-center rounded-[40px] shadow-2xl">
+              <div class="circle w-[133px] h-[133px] rounded-full bg-[#C1F1C6] flex justify-center items-center">
+                <div class="img w-[100px] sm:w-[139px] sm:h-[102px]">
+                  <img src="./images/pngwing 4.png" class="w-full h-auto object-cover" alt="">
                 </div>
               </div>
-              <div class="food-items text-[30px] font-semibold"><h4>Browse All</h4></div>
-              <div class="dishes text-[22px] font-medium text-[#555555]"><h6>(255 Items)</h6></div>
+              <div class="food-items text-[20px] sm:text-[30px] sm:font-semibold"><h4>Main Dish</h4></div>
+              <div class="dishes sm:text-[22px] font-medium text-[#555555]"><h6>(86 dishes)</h6></div>
             </div>
           </div>
         </div>
       </section>
       <!-- special deshes section -->
-       <section class="special-dishes container-xl pl-[1rem] pr-[1rem] pt-[5rem] ">
-        <div class="title-of-special-dishes">
-          <p class="text-[20px] font-bold text-[#FF6868] w-[209px]">SPECIAL DISHES</p>
+       <section class="special-dishes container-xl pl-[1rem] pr-[1rem] pt-[1rem]  sm:pt-[5rem] ">
+        <div class="title-of-special-dishes ">
+          <p class="text-[30px] sm:text-[20px] pb-[10px] text-center  font-bold text-[#FF6868] sm:w-[330px]  tracking-[3px]">SPECIAL DISHES</p>
           <div class="flex justify-between flex-col sm:flex-row sm:justify-between ">
            <div>
-            <div class="sm:w-[580px] sm:h-[158px] text-[40px]  sm:text-[60px] font-bold sm:leading-[79px]">
+            <div class="sm:w-[580px] pb-[20px] text-center  sm:h-[158px] text-[20px]  sm:text-[60px] font-bold sm:leading-[79px]">
               <h2>
                 Standout Dishes From Our Menu
             </h2>
           </div>
            </div>
           <!-- button-next-previous -->
-          <div class="button-group-next-previous flex items-end w-[200px] justify-between pb-2">
+          <div class=" hidden button-group-next-previous lg:flex items-end w-[200px] justify-between pb-2">
             <button  class="w-[80px] h-[80px] rounded-full bg-[#EFEFEF] shadow-2xl" alt="previous"><i class="fa-solid fa-angle-left text-[30px]"></i> </button>
             <button><img src="./images/Group 5.png" alt="next"></button>
           </div>
           </div>
           <!-- dishe-cards -->
-          <div class="dishes-card-section  flex flex-col  sm:flex-row flex-wrap lg:flex-nowrap gap-10 justify-center items-center mt-[10px] sm:p-[30px]">
+          <div class="dishes-card-section mb-10 flex flex-col  sm:flex-row flex-wrap lg:flex-nowrap gap-10 justify-center items-center mt-[10px] sm:p-[30px]">
             <!-- card-1 -->
-            <div class="dish-card-1  relative w-[290px] h-[370px]  sm:w-[446px] shadow-2xl sm:h-[523px]  rounded-[40px]">
-              <div class="like-icon absolute top-0 flex justify-center items-center sm:left-[357px] left-[219px] w-[70px] sm:w-[90px] lg:left-[195px] xl:left-[168px] 2xl:left-[180px] xl:w-full ">
+            <div class="dish-card-1  relative w-[250px] h-[250px]  sm:w-[446px] shadow-2xl sm:h-[523px]  rounded-[40px]">
+              <div class="like-icon absolute top-0 flex justify-center items-center sm:left-[357px] left-[195px] w-[55px] sm:w-[90px] lg:left-[195px] xl:left-[168px] 2xl:left-[180px] xl:w-full ">
                 <img src="./images/Rectangle 24.png"   alt="like">
                 <img src="./images/fi-sr-heart.png" class="absolute" alt="">
               </div>
               <div class="dishe-image flex  justify-center sm:items-center sm:h-[350px]">
-               <img src="./images/Fattoush salad.png" class="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] " alt="">
+               <img src="./images/Fattoush salad.png" class="w-[120px] h-[120px] sm:w-[250px] sm:h-[250px] " alt="">
               </div>
-              <div class="dish-name p-[10px] flex justify-around font-semibold ">
-                <div class="pl-1 ">
-                  <h5 class="dish-discription text-[30px] ">Fattoush salad</h5>
-                  <p class="text-[22px] text-[#555555]">Description of the item</p>
-                  <div class="price text-[24px]">
-                    <span class="text-[red] text-[20px]">$</span >24.00
+              <div class="dish-name  p-[16px] flex justify-around sm:font-semibold mb-[1px] mr-1 ml-1 ">
+                <div class="sm:pl-1 w-[140px] sm:w-full ">
+                  <h5 class="dish-discription sm:text-[30px] ">Fattoush salad</h5>
+                  <p class="sm:text-[22px] text-[#555555]">Description of the item</p>
+                  <div class="price sm:text-[24px]">
+                    <span class="text-[red] sm:text-[20px]">$</span >24.00
                   </div>
                 </div>
-                <div class="dish-rating  flex text-[24px] gap-2   font-semibold  items-end">
+                <div class="dish-rating  flex sm:text-[24px] gap-2   font-semibold  items-end">
                   <span><img src="./images/fi-sr-star.png" class="w-[24px] h-[24px]"  alt=""></span>
                 <div class="rating flex items-end">4.9</div>
                 </div>
               </div>
             </div>
             <!-- card-2 -->
-            <div class="dish-card-1 relative w-[290px] h-[370px]  sm:w-[446px] shadow-2xl sm:h-[523px]  rounded-[40px]">
-              <div class="like-icon absolute top-0 flex justify-center items-center sm:left-[357px] left-[219px] w-[70px] sm:w-[90px] lg:left-[195px] xl:left-[168px] 2xl:left-[180px] xl:w-full">
+            <div class="dish-card-1  relative w-[250px] h-[250px]  sm:w-[446px] shadow-2xl sm:h-[523px]  rounded-[40px]">
+              <div class="like-icon absolute top-0 flex justify-center items-center sm:left-[357px] left-[195px] w-[55px] sm:w-[90px] lg:left-[195px] xl:left-[168px] 2xl:left-[180px] xl:w-full ">
                 <img src="./images/Rectangle 24.png"   alt="like">
-                <img src="./images/fi-br-heart.png" class="absolute" alt="">
+                <img src="./images/fi-sr-heart.png" class="absolute" alt="">
               </div>
               <div class="dishe-image flex  justify-center sm:items-center sm:h-[350px]">
-               <img src="./images/Vegetable salad.png" class="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] " alt="">
+               <img src="./images/Vegetable salad.png" class="w-[120px] h-[120px] sm:w-[250px] sm:h-[250px] " alt="">
               </div>
-              <div class="dish-name  flex justify-around font-semibold ">
-                <div class="pl-1 ">
-                  <h5 class="dish-discription text-[30px] ">Vegetable salad</h5>
-                  <p class="text-[22px] text-[#555555]">Description of the item</p>
-                  <div class="price text-[24px]">
-                    <span class="text-[red] text-[20px]">$</span >26.00
+              <div class="dish-name  p-[16px] flex justify-around sm:font-semibold mb-[1px] mr-1 ml-1 ">
+                <div class="sm:pl-1 w-[140px] sm:w-full ">
+                  <h5 class="dish-discription sm:text-[30px] ">Vegetable salad</h5>
+                  <p class="sm:text-[22px] text-[#555555]">Description of the item</p>
+                  <div class="price sm:text-[24px]">
+                    <span class="text-[red] sm:text-[20px]">$</span >26.00
                   </div>
                 </div>
-                <div class="dish-rating  flex text-[24px] gap-2   font-semibold  items-end">
+                <div class="dish-rating  flex sm:text-[24px] gap-2   font-semibold  items-end">
                   <span><img src="./images/fi-sr-star.png" class="w-[24px] h-[24px]"  alt=""></span>
                 <div class="rating flex items-end">4.6</div>
                 </div>
               </div>
             </div>
             <!-- card-3 -->
-            <div class="dish-card-1 relative w-[290px] h-[370px]  sm:w-[446px] shadow-2xl sm:h-[523px]  rounded-[40px]">
-              <div class="like-icon absolute top-0 flex justify-center items-center sm:left-[357px] left-[219px] w-[70px] sm:w-[90px] lg:left-[195px] xl:left-[168px] 2xl:left-[180px] xl:w-full">
+            <div class="dish-card-1  relative w-[250px] h-[250px]  sm:w-[446px] shadow-2xl sm:h-[523px]  rounded-[40px]">
+              <div class="like-icon absolute top-0 flex justify-center items-center sm:left-[357px] left-[195px] w-[55px] sm:w-[90px] lg:left-[195px] xl:left-[168px] 2xl:left-[180px] xl:w-full ">
                 <img src="./images/Rectangle 24.png"   alt="like">
-                <img src="./images/fi-br-heart.png" class="absolute" alt="">
+                <img src="./images/fi-sr-heart.png" class="absolute" alt="">
               </div>
               <div class="dishe-image flex  justify-center sm:items-center sm:h-[350px]">
-               <img src="./images/Egg salad.png" class="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] " alt="">
+               <img src="./images/Egg salad.png" class="w-[120px] h-[120px] sm:w-[250px] sm:h-[250px] " alt="">
               </div>
-              <div class="dish-name p-[10px] flex justify-around font-semibold ">
-                <div class="pl-1 ">
-                  <h5 class="dish-discription text-[30px] ">Egg vegi salad</h5>
-                  <p class="text-[22px] text-[#555555]">Description of the item</p>
-                  <div class="price text-[24px]">
-                    <span class="text-[red] text-[20px]">$</span >23.00
+              <div class="dish-name  p-[16px] flex justify-around sm:font-semibold mb-[1px] mr-1 ml-1 ">
+                <div class="sm:pl-1 w-[140px] sm:w-full ">
+                  <h5 class="dish-discription sm:text-[30px] ">Egg vegi salad</h5>
+                  <p class="sm:text-[22px] text-[#555555]">Description of the item</p>
+                  <div class="price sm:text-[24px]">
+                    <span class="text-[red] sm:text-[20px]">$</span >23.00
                   </div>
                 </div>
-                <div class="dish-rating  flex text-[24px] gap-2   font-semibold  items-end">
+                <div class="dish-rating  flex sm:text-[24px] gap-2   font-semibold  items-end">
                   <span><img src="./images/fi-sr-star.png" class="w-[24px] h-[24px]"  alt=""></span>
                 <div class="rating flex items-end">4.5</div>
                 </div>
@@ -351,46 +358,48 @@
         <div class="testimonial container-xl p-5  sm:mt-[140px]  h-[721px] grid grid-cols-1  sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 justify-items-center ">
           <div class="our-best-cheif flex justify-center items-center order-2   mt-[140px] lg:mt-[0px] relative">
             <div class="image ">
-              <div class="cheif-div"><img src="./images/Mask group.png" class="absolute  cheif-girl   top-[-159px] p-7 sm:p-9 md:p-7 md:top-[-210px] lg:top-[-131px] lg:left-[40px] lg:p-0 sm:top-[-198px]  sm:h-[600px] pl-6 " alt=""></div>
-              <div  ><img src="./images/Rectangle 37.png"    alt="reactangle">
-                <img src="./images/😋.png" class="relative top-[-10rem] left-[-1rem] sm:top-[-15rem] sm:left-[-2rem]" alt="">
-                <img src="./images/🍕.png" class="relative top-[-13rem] left-[16rem] sm:top-[-18rem] sm:left-[29rem]" alt="">
+              <div class="cheif-div"><img src="./images/Mask group.png" class="absolute  cheif-girl object-cover h-[432px] left-[-6px]  top-[-211px] p-7 sm:p-9 md:p-7 md:top-[-210px] lg:top-[-131px] lg:left-[40px] lg:p-0 sm:top-[-198px]  sm:h-[600px] pl-6 " alt=""></div>
+              <div  ><img src="./images/Rectangle 37.png" class="h-[190px] w-[261px]"    alt="reactangle">
+                <img src="./images/😋.png" class="relative h-[35px] sm:h-auto top-[-10rem] left-[-1rem] sm:top-[-15rem] sm:left-[-2rem]" alt="smile">
+                <img src="./images/🍕.png" class="relative h-[35px] sm:h-auto top-[-12rem] left-[15rem] sm:top-[-18rem] sm:left-[29rem]" alt="pizza">
               </div>
               
-              <div class="absolute w-[150px] left-[8rem] top-[11rem] sm:top-[19rem] sm:left-[15rem] sm:w-[500px] lg:top-[25rem] ">
-                <img src="./images/Rectangle 41 (1).png"  alt="">
+              <div class="absolute w-[150px] left-[8rem] top-[9rem] sm:top-[19rem] sm:left-[15rem] sm:w-[500px] lg:top-[25rem] ">
+                <img src="./images/Rectangle 41 (1).png"  alt="mask">
                 <div class="relative top-[-3rem] left-[2rem] w-[90px] sm:top-[-6rem] sm:left-[5rem] sm:w-[160px]">
-                  <img src="./images/Our Best Chef 😁.png" alt="">
+                  <img src="./images/Our Best Chef 😁.png" alt="best chief">
                 </div>
               </div>
             </div>
           </div>
 
           <!-- testimonial-right-div -->
-          <div class="our-testimonial  flex flex-col font-bold justify-center lg:order-2 lg:w-[450px] xl:w-full ">
+          <div class="our-testimonial mb-10 sm:mb-1  flex flex-col font-bold justify-center lg:order-2 lg:w-[450px] xl:w-full ">
             <div class="testimnial-title   flex justify-center sm:block">
-              <h4 class="text-[28px] sm:text-[20px] text-[#FF6868] tracking-widest">TESTIMONIALS</h4>
+              <h4 class="text-[22px] sm:text-[20px] text-[#FF6868] tracking-widest">TESTIMONIALS</h4>
             </div>
-            <div class="testimonial-heading sm:w-[635px] sm:h-[158px]   w-[100%] flex justify-center flex-wrap    sm:text-[60px] lg:w-[500px] lg:text-[48px] xl:w-[635px] xl:text-[60px]">
+            <div class="testimonial-heading sm:w-[635px] sm:h-[158px] text-[16px]  w-[100%] flex justify-center flex-wrap    sm:text-[60px] lg:w-[500px] lg:text-[48px] xl:w-[635px] xl:text-[60px]">
               <h1 >What Our Customers Say About Us</h1>
             </div>
             <div class="flex justify-center sm:block">
-              <div class="testimonial-para w-[300px] lg:w-[500px] xl:w-[655px] flex justify-center items-center  sm:w-[655px] sm:h-[123px] sm:text-[26px] pt-5 sm:mt-6 text-[#555555]  font-medium">
+              <div class="testimonial-para w-[300px] lg:w-[500px]  xl:w-[655px] flex justify-center items-center  sm:w-[655px] sm:h-[123px] text-[12px] text-center sm:text-start  sm:text-[26px] pt-3 sm:mt-6 text-[#555555]   font-medium">
                 <p >
                   “I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable”
                 </p>
               </div>
             </div>
-            <div class="testimonial-customer sm:mt-[30px] flex flex-col sm:flex-row items-center sm:w-[450px] sm:justify-between">
-              <div class="group-mages flex relative  w-[200px]   sm:ml-[0px] ">
-                <img src="./images/Mask group-customer.png" class="w-[80px] h-[80px] z-[0px]   top-0  " alt="">
-                <img src="./images/Mask group-coustomer-1.png" class="w-[80px] h-[80px] absolute z-[999px]  left-[60px]"  alt="">
-                <img src="./images//Mask group-coustomer-2.png" class="w-[80px] h-[80px] absolute left-[120px] " alt="">
+            <div class="testimonial-customer mt-3 sm:mt-[30px] flex flex-col sm:flex-row items-center sm:w-[450px] sm:justify-between">
+              <div class="wraper-coustomer flex justify-center w-[200px] sm:w-auto ">
+                <div class="group-mages flex relative w-[124px] sm:w-[200px]   sm:ml-[0px] ">
+                  <img src="./images/Mask group-customer.png" class="sm: w-[50px] sm:w-[80px] sm:h-[80px] z-[0px]   sm:top-0  " alt="">
+                  <img src="./images/Mask group-coustomer-1.png" class="w-[50px] sm:w-[80px] sm:h-[80px] absolute z-[999px] left-[35px]  sm:left-[60px]"  alt="">
+                  <img src="./images//Mask group-coustomer-2.png" class="w-[50px] sm:w-[80px] sm:h-[80px] absolute z-[999px] left-[75px]  sm:left-[60px] " alt="">
+                </div>
               </div>
-              <div class="feedback z-[999] ">
-                <h4 class="text-[26px] font-semibold">Customer Feedback</h4>
-                <div class="rating flex gap-2">
-                  <span><img src="./images/fi-sr-star.png" alt=""></span>
+              <div class="feedback  font-normal sm:font-semibold z-[999] ">
+                <h4 class="sm:text-[26px] text-[18px]">Customer Feedback</h4>
+                <div class="rating text-[12px] sm:text-[24px]  flex justify-center items-center sm:justify-start gap-2">
+                  <span><img src="./images/fi-sr-star.png" class="w-[15px] sm:w-[24px]" alt=""></span>
                   <span>4.9</span>
                   <span>(18.6k Reviews)</span>
                 </div>
@@ -401,73 +410,73 @@
         <!-- tetimonial-end-here -->
 
         <!-- our-services -->
-        <section class="our-services  mt-[20px] sm:mt-[270px] lg:mt-[0px]">
-          <div class="container-xl sm:h-[721px] grid lg:grid-cols-2 p-7">
-            <div class="our-services  flex justify-center items-center">
-              <div class="our-testimonial flex flex-col font-bold justify-center w-[250px] p-5 sm:p-0 sm:w-full"> 
-                <div class="testimnial-title flex justify-center sm:block ">
+        <section class="our-services  mt-[-83px] sm:mt-[270px] lg:mt-[0px]">
+          <div class="container-xl sm:h-[721px] grid lg:grid-cols-2 ">
+            <div class="our-services  flex justify-center items-center mb-5">
+              <div class="our-testimonial flex flex-col font-bold justify-center w-[350px] text-center p-5 sm:p-0 sm:w-full"> 
+                <div class="testimnial-title  width flex justify-center sm:block ">
                   <h4 class="text-[20px] text-[#FF6868]  sm:tracking-widest">OUR STORY & SERVICES</h4>
                 </div>
                 <div class="testimonial-heading sm:w-[635px]  lg:w-[430px] lg:text-[42px] xl:w-[635px] xl:text-[60px] sm:h-[158px]  sm:text-[60px]">
                   <h1>Our Culinary Journey And Services</h1>
                 </div>
-                <div class="testimonial-para sm:w-[655px]  lg:w-[430px] lg:mb-[80px] xl:w-[655px] xl:mb-[0px] sm:h-[123px] sm:text-[26px] pt-5 mt-6 text-[#555555]  font-medium">
+                <div class="testimonial-para w-[300px] text-[12px] sm:w-[655px]  lg:w-[430px] lg:mb-[80px] xl:w-[655px] xl:mb-[0px] sm:h-[123px] sm:text-[26px] pt-5  text-[#555555]  font-medium">
                   <p >
                     Rooted in passion, we curate unforgettable dining experiences and offer exceptional services, blending culinary artistry with warm hospitality.
                   </p>
                 </div>
-                <div class="service-button mt-[30px] flex items-center sm:w-[450px] justify-between">
-                  <button class="w-[215px] h-[80px] bg-[#39DB4A] rounded-full text-white text-[26px] text-center font-semibold">Explore</button>
+                <div class="service-button mt-[30px] flex items-center sm:w-[450px] justify-center sm:justify-between">
+                  <button class="w-[160px] h-[50px] sm:w-[215px] sm:h-[80px] bg-[#39DB4A] rounded-full text-white sm:text-[26px] text-center font-normal sm:font-semibold">Explore</button>
                 </div>
               </div>
             </div>
             <div class="service-cards flex pl-5 justify-center sm:pl-[0px] sm:justify-center items-center ">
-              <div class="cards grid grid-cols-1 justify-items-center items-center sm:grid-cols-2 gap-10">
+              <div class="cards grid  grid-cols-1 justify-items-center items-center sm:grid-cols-2 gap-10">
                 <!-- card-1 -->
-                <div class="service-card-1 w-[250px] sm:w-[277px] lg:w-[220px] lg:p-[20px] xl:p-[0px] xl:w-[277px] h-[298px] rounded-[30px] shadow-2xl flex flex-col justify-evenly items-center ">
+                <div class="service-card-1 w-[250px] h-[200px] sm:w-[277px] lg:w-[220px] lg:p-[20px] xl:p-[0px] xl:w-[277px]  rounded-[30px] shadow-2xl flex flex-col justify-evenly items-center ">
                   <div class="image">
-                    <img src="./images/fi-rr-salad.png" alt="">
+                    <img src="./images/fi-rr-salad.png" class="w-[60px] sm:w-full" alt="">
                   </div>
-                  <div class="sevice-tittle text-[24px] lg:text-[19px] xl:text-[24px] font-bold text-[#5FE26C]">
+                  <div class="sevice-tittle text-[18px] lg:text-[19px] xl:text-[24px] font-bold text-[#5FE26C]">
                     <h5>CATERING</h5>
                   </div>
-                  <div class="services-description p-1  w-[236px] h-[72px] text-center lg:text-[16px] text-[20px] xl:text-[20px] text-[#90BD95] font-semibold leading-[24px]">
+                  <div class="services-description p-1  w-[236px] h-[72px] text-center lg:text-[16px] text-[16px] xl:text-[20px] text-[#90BD95] sm:font-semibold leading-[24px]">
                    <p>Delight your guests with our flavors and  presentation</p>                                                                   
                   </div>
                 </div>
                 <!-- card-2 -->
-                <div class="service-card-2 w-[250px] sm:w-[277px] lg:w-[220px] lg:p-[20px] xl:p-[0px] xl:w-[277px] h-[298px] rounded-[30px] shadow-2xl flex flex-col justify-evenly items-center ">
+                <div class="service-card-2 w-[250px] h-[200px] sm:w-[277px] lg:w-[220px] lg:p-[20px] xl:p-[0px] xl:w-[277px]  rounded-[30px] shadow-2xl flex flex-col justify-evenly items-center ">
                   <div class="image">
-                    <img src="./images/fi-rr-time-fast.png" alt="">
+                    <img src="./images/fi-rr-time-fast.png" class="w-[60px] sm:w-full" alt="">
                   </div>
-                  <div class="sevice-tittle text-[24px] lg:text-[19px] xl:text-[24px] font-bold text-[#5FE26C]">
+                  <div class="sevice-tittle text-[18px] lg:text-[19px] xl:text-[24px] font-bold text-[#5FE26C]">
                     <h5>FAST DELIVERY</h5>
                   </div>
-                  <div class="services-description p-1  w-[236px] h-[72px] text-center lg:text-[16px] text-[20px] xl:text-[20px] text-[#90BD95] font-semibold leading-[24px]">
+                  <div class="services-description p-1  w-[236px] h-[72px] text-center lg:text-[16px] text-[16px] xl:text-[20px] text-[#90BD95] sm:font-semibold leading-[24px]">
                    <p>We deliver your order promptly to your door</p>                                                                   
                   </div>
                 </div>
                 <!-- card-3 -->
-                <div class="service-card-3 w-[250px] sm:w-[277px] h-[298px] lg:w-[220px] lg:p-[20px] xl:p-[0px] xl:w-[277px] rounded-[30px] shadow-2xl flex flex-col justify-evenly items-center ">
+                <div class="service-card-3 w-[250px] h-[200px] sm:w-[277px]  lg:w-[220px] lg:p-[20px] xl:p-[0px] xl:w-[277px] rounded-[30px] shadow-2xl flex flex-col justify-evenly items-center ">
                   <div class="image">
-                    <img src="./images/fi-rr-shopping-cart-check.png" alt="">
+                    <img src="./images/fi-rr-shopping-cart-check.png" class="w-[60px] sm:w-full" alt="">
                   </div>
-                  <div class="sevice-tittle text-[24px] lg:text-[19px] xl:text-[24px] font-bold text-[#5FE26C]">
+                  <div class="sevice-tittle text-[18px] lg:text-[19px] xl:text-[24px] font-bold text-[#5FE26C]">
                     <h5>ONLINE ORDERING</h5>
                   </div>
-                  <div class="services-description p-1  w-[236px] h-[72px] text-center lg:text-[16px] text-[20px] xl:text-[20px] text-[#90BD95] font-semibold leading-[24px]">
+                  <div class="services-description p-1  w-[236px] h-[72px] text-center lg:text-[16px] text-[16px] xl:text-[20px] text-[#90BD95] sm:font-semibold leading-[24px]">
                    <p>Explore menu & order with ease using our Online Ordering </p>                                                                   
                   </div>
                 </div>
                 <!-- card-4 -->
-                <div class="service-card-4 w-[250px] sm:w-[277px] lg:w-[220px] lg:p-[20px] xl:p-[0px] xl:w-[277px] h-[298px] rounded-[30px] shadow-2xl z-[999] flex flex-col justify-evenly items-center ">
+                <div class="service-card-4 w-[250px] h-[200px] sm:w-[277px] lg:w-[220px] lg:p-[20px] xl:p-[0px] xl:w-[277px]  rounded-[30px] shadow-2xl z-[999] flex flex-col justify-evenly items-center ">
                   <div class="image">
-                    <img src="./images/fi-rr-gift.png" alt="">
+                    <img src="./images/fi-rr-gift.png" class="w-[60px] sm:w-full" alt="">
                   </div>
-                  <div class="sevice-tittle text-[24px] lg:text-[19px] xl:text-[24px] font-bold text-[#5FE26C]">
+                  <div class="sevice-tittle text-[18px] lg:text-[19px] xl:text-[24px] font-bold text-[#5FE26C]">
                     <h5>GIFT CARDS</h5>
                   </div>
-                  <div class="services-description p-1  w-[236px] h-[72px] text-center lg:text-[16px] text-[20px] xl:text-[20px] text-[#90BD95] font-semibold leading-[24px]">
+                  <div class="services-description p-1  w-[236px] h-[72px] text-center lg:text-[16px] text-[16px] xl:text-[20px] text-[#90BD95] sm:font-semibold leading-[24px]">
                    <p>Give the gift of exceptional dining with Foodi Gift Cards</p>                                                                   
                   </div>
                 </div>
