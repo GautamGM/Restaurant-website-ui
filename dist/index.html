@@ -40,7 +40,8 @@
       font-family:sans-serif ;
       font-weight: 700px;
     }
-    @media (min-width: 320px) and (mx-width:412px)  {
+    
+    @media (min-width: 320px) and (max-width:340px)  {
       .girl {
         position: relative;
         top: -1px;
@@ -49,18 +50,88 @@
       .inner-Container {
         width: 100%;
       }
-      card-group {
+      .card-group {
         position: relative;
-        top: 235px !important;
+        top: 225px !important;
         left: -25px !important;
       }
       .hot-image {
         position: relative;
         width: 120px !important;
-        top: -3px !important;
-        left: -28px !important;
+        top:40px !important;
+       left:-20px !important;
       }
     }
+     
+    @media  (min-width:340px) and (max-width:374px) {
+  .card-group {
+        position: relative;
+        top: 244px !important;
+        left: -20px !important;
+      }
+      .hot-image {
+        position: relative;
+        width: 120px !important;
+        top:45px !important;
+       left:-15px !important;
+      }
+}
+
+@media  (min-width:374px) and (max-width:391px) {
+  .card-group {
+        position: relative;
+        top: 274px !important ;
+        left: -16px !important;
+      }
+      .hot-image {
+        position: relative;
+        width: 120px !important;
+        top:60px !important;
+       left:-15px !important;
+      }
+}
+ 
+@media  (min-width:391px) and (max-width:435px) {
+  .card-group {
+        position: relative;
+        top: 298px !important ;
+        left: 10px !important;
+      }
+      .hot-image {
+        position: relative;
+        width: 130px !important;
+        top:70px !important;
+       left:-15px !important;
+      }
+}
+
+@media  (min-width:435px) and (max-width:540) {
+  .card-group {
+        position: relative;
+        top: 398px !important ;
+        left: 10px !important;
+      }
+      .hot-image {
+        position: relative;
+        width: 190px !important;
+        top:90px !important;
+       left:-15px !important;
+      }  
+}
+@media  (min-width:540px) and (max-width:640px) {
+  .card-group {
+        position: relative;
+        top: 398px !important ;
+        left: 50px !important;
+      }
+
+  .hot-image {
+        position: relative;
+        width: 170px !important;
+        top:90px !important;
+       left:-15px !important;
+      }  
+}
     @media (min-width: 1280px) and (max-width: 1300px) {
       .like-icon-3 {
         position: relative;
@@ -73,6 +144,8 @@
         
       }
     }
+
+
     @media (min-width: 1285px) and (max-width: 1530px) {
       .dive-into-h1 {
         font-size: 48px !important;
@@ -120,7 +193,7 @@
               <li>
                 <a href="#">Services</a
                 ><span
-                  ><i class="fa-solid fa-angle-down text-[#39DB4A] ml-2"></i
+                  ><i class="fa-solid fa-angle-down text-[#39DB4A] "></i
                 ></span>
               </li>
               <li><a href="#">Offers</a></li>
@@ -157,8 +230,8 @@
               </div>
               <p>Contact</p>
             </button>
-            <div class="div pl-2 text-[20px] md:hidden shadow-3xl">
-              <i class="fa-solid fa-bars"></i>
+            <div class="div pl-5 text-[20px] md:hidden  ">
+              <i class="fa-solid fa-bars"  ></i>
             </div>
           </div>
         </nav>
@@ -174,7 +247,7 @@
               class="food flex flex-col justify-start items-center lg:flex mt-[70px] lg:mt-[75px]  xl:mt-[80px] 2xl:mt-[115px] "
             >
               <div
-                class="title  text-[26px] sm:text-[45px] sm:leading-[70px] sm:text-center lg:text-start leading-9 md:leading-[75.22px] lg:leading-[70px] xl:leading-[90.22px] lg:text-[40px] xl:text-[60px] sm:block flex justify-center items-center sm:max-w-[596px] font-[700]   md:text-[50px]  sm:mt-[230px] md:mt-[145px] lg:mt-[187px]"
+                class="title  text-[26px] sm:text-[45px] sm:leading-[70px] sm:text-center lg:text-start leading-9 md:leading-[75.22px] lg:leading-[70px] xl:leading-[90.22px] lg:text-[40px] xl:text-[60px] sm:block flex justify-center items-center sm:max-w-[596px] 2xl:max-w-[609px] font-[700]   md:text-[50px]  sm:mt-[230px] md:mt-[145px] lg:mt-[187px]"
               >
                 <h1
                   class="dive-into-h1  xl:text-[50px] 2xl:text-[62px] "
@@ -225,34 +298,35 @@
           <!-- end of titlesection -->
           <!-- image-div -->
           <div
-            class="girl-image flex md:mb-[90px] p-[20px] pt-[40px] pb-[100px] sm:p-[0] justify-center flex-col items-center w-[100%] lg:w-[50%]"
+            class="  girl-image flex md:mb-[90px] p-[20px] pt-[40px] pb-[100px] sm:p-[0] justify-center flex-col items-center w-[100%] lg:w-[50%]"
           >
             <div
-              class="inner-div-of-image relative top-[20px] sm:top-[110px] sm:left-[36px] lg:top-[160px] lg:left-[27px] "
+              class="  inner-div-of-image relative top-[20px] sm:top-[110px]  lg:top-[160px] "
             >
-              <div class="green-circle max-w-[500px]">
+              <div class=" green-circle max-w-[500px]">
                 <img
                   src="./images/Rectangle 9.png"
-                  class="w-[100%] h-[100%] object-cover"
+                  class=" hidden sm:block   w-[100%] h-[100%] object-cover" draggable="false"
                 />
+                <img src="./images/without-filter-girl-ai-brush-removebg-71xr1wtcj (1).png" class="sm:hidden relative" alt="">
               </div>
               <div
-                class="girl-image absolute top-[-59px] left-[-28px] sm:top-[-79px] sm:left-[-33px] lg:top-[-94px] lg:left-[-39px] xl:top-[-110px] xl:left-[-50px]"
+                class=" hidden sm:block absolute top-[-59px] left-[-28px] sm:top-[-79px] sm:left-[-33px] lg:top-[-94px] lg:left-[-39px] xl:top-[-110px] xl:left-[-50px]"
               >
                 <img
                   src="./images/Intersect.png"
-                  class="girl relative w-[100%] h-[100%] object-cover"
+                  class="girl relative w-[100%] h-[100%] object-cover" draggable="false"
                   alt=""
                 />
               </div>
               <img
                 src="./images/Group 15.png" 
-                class="hot-image absolute top-[-18px] left-[-75px] sm:w-[290px] w-[170px] sm:left-[-160px] md:w-[350px] md:left-[-200px] lg:w-[270px] lg:left-[-95px] xl:left-[-100px]"
-                alt=""
+                class="hot-image absolute top-[-18px] left-[-75px] sm:w-[260px] w-[170px] sm:left-[-160px] md:w-[280px] md:left-[-100px] lg:w-[220px] lg:left-[-45px] xl:w-[277px] xl:top-[-8px] xl:left-[-120px] "
+                alt=""  draggable="false"
               />
               <!-- card-group -->
               <div
-                class="card-group xl:w-[751px] gap-3 min-w-[253px]  sm:w-[590px]  top-[230px] flex items-center sm:justify-between sm:gap-3 absolute z-[999] sm:top-[465px] sm:left-[-75px] lg:mt md:w-[650px] md:top-[462px] md:left-[-97px] p-[1px] 25:top-[450px] xl:top-[450px] xl:left-[-170px] 2xl:left-[-156px] 2xl:top-[457px] lg:w-[530px] lg:pl-[13px] lg:top-[420px]  lg:left-[-40px] xl:pl-[1px] lg:gap-[30px] xl:gap-[12px]"
+                class="  card-group xl:w-[751px] gap-3 min-w-[253px] top-[320px]  sm:w-[590px]   flex items-center sm:justify-between sm:gap-3 absolute z-[999] sm:top-[465px] sm:left-[-75px] lg:mt md:w-[650px] md:top-[462px] md:left-[-97px] p-[1px] 25:top-[450px] xl:top-[450px] xl:left-[-170px] 2xl:left-[-156px] 2xl:top-[457px] lg:w-[530px] lg:pl-[13px] lg:top-[420px]  lg:left-[-40px] xl:pl-[1px] lg:gap-[30px] xl:gap-[12px]"
               >
                 <!-- card-1 -->
                 <div
@@ -843,7 +917,7 @@
               </div>
               <!-- card-2 -->
               <div
-                class="service-card-1 w-[250px] h-[200px] sm:w-[277px] lg:w-[235px] lg:h-[297px] lg:p-[20px] xl:p-[0px] xl:w-[277px] rounded-[30px] shadow-lg flex flex-col justify-evenly items-center"
+                class="service-card-1 w-[250px] h-[200px] sm:w-[277px] lg:w-[235px] lg:h-[297px] lg:p-[20px] xl:p-[0px] xl:w-[277px] rounded-[30px] shadow-lg  flex flex-col justify-evenly items-center"
               >
                 <div class="image">
                   <img
@@ -865,7 +939,7 @@
               </div>
               <!-- card-3 -->
               <div
-                class="service-card-1 w-[250px] h-[200px] sm:w-[277px] lg:w-[235px] lg:h-[297px] lg:p-[20px] xl:p-[0px] xl:w-[277px] rounded-[30px] shadow-2xl flex flex-col justify-evenly items-center"
+                class="service-card-1 w-[250px] h-[200px] sm:w-[277px] lg:w-[235px] lg:h-[297px] lg:p-[20px] xl:p-[0px] xl:w-[277px] rounded-[30px] shadow-lg mt-[2px] flex flex-col justify-evenly items-center"
               >
                 <div class="image">
                   <img
@@ -889,7 +963,7 @@
               </div>
               <!-- card-4 -->
               <div
-                class="service-card-1 w-[250px] h-[200px] sm:w-[277px] lg:w-[235px] lg:h-[297px] lg:p-[20px] xl:p-[0px] xl:w-[277px] rounded-[30px] shadow-2xl flex flex-col justify-evenly items-center"
+                class="service-card-1 w-[250px] h-[200px] sm:w-[277px] lg:w-[235px] lg:h-[297px] lg:p-[20px] xl:p-[0px] xl:w-[277px] rounded-[30px] shadow-lg mt-[2px] flex flex-col justify-evenly items-center"
               >
                 <div class="image">
                   <img
@@ -1037,7 +1111,7 @@
             <div
               class="sm:w-[45px] w-[35px] h-[36px] m-2 sm:h-[45px] flex justify-center items-center rounded-full bg-[#EDFFEF]"
             >
-              <img src="./images/🦆 icon _youtube_.png" alt="" />
+              <img src="./images/🦆 icon _youtube_.png" alt=""/>
             </div>
           </div>
           <div class="font-[inter] text-[12px] sm:text-[16px] md:text-[18px] font-medium" >Copyright 2023 Dscode | All rights reserved</div>
